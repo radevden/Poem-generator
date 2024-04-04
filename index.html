@@ -5,21 +5,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="src/style.css">
   <script src="src/index.js"></script>
   <title>AI Poem generator</title>
 </head>
 
 <body>
-  <header>
-    <h1>Poem generator</h1>
-  </header>
-  <main>
-    <input type="text" placeholder="Enter the topic here" autofocus required />
-    <input type="submit" />
-  </main>
-  <footer>This project is open-sourced on <a href="https://github.com/radevden/Poem-generator.git"
-      target="_blank">Github</a> </footer>
+  <div class="container">
+    <header>
+      <h1>Poem generator</h1>
+    </header>
+    <main>
+      <form>
+        <input type="text" placeholder="Enter the topic here" autofocus required class="window" />
+        <input type="submit" class="submitbtn" />
+      </form>
+      <div class="poem">
+        <p>Place the poem here</p>
+      </div>
+    </main>
+    <footer>This project is open-sourced on <a href="https://github.com/radevden/Poem-generator.git"
+        target="_blank">Github</a> </footer>
+  </div>
   <script src="src/index.js"></script>
 </body>
 
