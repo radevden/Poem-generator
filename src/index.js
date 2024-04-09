@@ -1,16 +1,18 @@
-function generatePoem(event){
-    event.preventDefault ();
-    poemText.innerHTML = "Generating a poem";
-
+function generatePoem(event) {
+    event.preventDefault();
+    
     alert("Generating a poem");
+
+    new Typewriter (".pPoem", {
+        strings: "Type the poem here",
+        autostart: true,
+        delay: 50,
+    });
 }
 
-new Typewriter (".pPoem", {
-    strings: "Type the poem here",
-    autostart: true,
-    delay: 50,
-});
+let form = document.querySelectorAll("#form");
+form.addEventListener("submit", generatePoem);
 
-let formElement = document.querySelectorAll("#poem-form");
-formElement.addEventListener ("submit", generatePoem);
+
+
 
