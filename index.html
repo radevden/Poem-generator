@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="src/style.css">
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <title>AI Poem generator</title>
 </head>
@@ -23,7 +23,7 @@
 
     <main>
       <form id="form">
-        <input type="text" placeholder="Enter the topic here" autofocus required class="window" />
+        <input type="text" placeholder="Enter the topic here" autofocus required autocomplete="off" class="window" id="topic"/>
         <input type="submit" class="submitbtn" />
       </form>
       <div class="poem">
