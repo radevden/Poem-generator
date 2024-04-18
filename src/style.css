@@ -43,23 +43,20 @@ form {
   color: black;
   transition: 0.4s;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+  margin-left: 7px;
 }
 
 .submitbtn:hover {
   background: #cf5f68;
 }
 
-.poem {
+
+.pPoem {
+  margin: 0 auto;
   background: white;
   border-radius: 12px;
   margin-bottom: 30px;
   text-align: left;
   padding: 15px;
-  line-height: 2;
 }
 
-.pPoem {
-  width: 100%;
-  height: 120px;
-  margin: 0 auto;
-}
