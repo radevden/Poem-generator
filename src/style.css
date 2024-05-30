@@ -36,13 +36,15 @@ form {
 }
 
 .window {
-  padding: 10px 100px;
+  padding: 10px;
   font-weight: 500;
   font-style: italic;
   font-size: 15px;
   border-radius: 12px;
   border: 1px solid #9c9c9c;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 100%;
 }
 
 .submitbtn {
@@ -76,7 +78,6 @@ form {
   display: none;
 }
 
-/* HTML: <div class="loader"></div> */
 .loader {
   width: 35px;
   height: 80px;

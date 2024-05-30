@@ -12,22 +12,22 @@
   <link rel="stylesheet" href="src/style.css">
   <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-  <title>AI Poem generator</title>
+  <title>AI vacation generator</title>
 </head>
 
 <body>
   <div class="container">
     <header>
-      <h1>Poem generator</h1>
+      <h1>Vacation itinerary generator</h1>
     </header>
 
     <main>
       <div class="form-div">
         <form id="form">
-          <input type="text" placeholder="Enter the topic here" autofocus required autocomplete="off" class="window" id="topic"/>
-          <input type="submit" class="submitbtn" value="Submit"/>
+          <input type="text" placeholder="Enter your destination here" autofocus required autocomplete="off" class="window" id="topic"/>
+          <input type="submit" class="submitbtn" value="Submit" id="button"/>
          </form>
-         <div class="example">i.e: Love, Rose, Stars</div>
+         <div class="example">i.e: Malta, Athens, Nevada</div>
       </div>
       <div class="pPoem hidden" id="poem"></div>
     </main>
